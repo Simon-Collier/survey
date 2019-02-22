@@ -11,13 +11,9 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-nav a {
-  font-family: 'Oswald', sans-serif;
-  color: white !important
-}
 
 .main-banner {
-  background-image: url(../img/banner.png);
+  background-image: url(../img/pineapples-1606852_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,10 +25,16 @@ section {
   padding: unset
 }
 
-nav {
-  position: fixed !important;
-  width: 100%
+.header-design {
+  background-color: grey;
+  width: 100%;
+  height: 50px;
 }
-.bg-light {
-  background-color: transparent !important
+
+.container-fluid {
+  padding: unset
+}
+
+.introduction {
+  padding-top: 100px
 }
