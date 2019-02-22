@@ -23,3 +23,16 @@ $('#btn').click(function() {
         alert(total + ' Item(s) are not answered');
     }
 });
+
+$('#btn2').click(function(){
+    alert('Username and password do not match')
+})
+
+$('#btn3').click(function(){
+    alert('Username and password do not match')
+})
+
+$('#btn4').click(function(){
+    alert('Username and password do not match')
+})
+

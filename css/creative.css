@@ -67,7 +67,59 @@ section {
   padding-bottom: 200px
 }
 
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
 
+
+.modal-content {
+  background-color: white;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.login-content-wrapper {
+  text-align: center;
+  padding-top: 30px
+}
+
+.username {
+  margin-top: 5px;
+  border: none;
+  background: rgb(221, 221, 221);
+  padding: 5px 15px;
+}
+.password  {
+  margin-top: 10px;
+  border: none;
+  background: rgb(221, 221, 221);
+  padding: 5px 15px;
+}
+
+.btnwrapper2 {
+  margin-top: 30px
+}
+
+.button-design2 {
+  border: none;
+  background: red;
+  padding: 5px 15px;
+  color: white;
+  width: 100%
+}
+
+
+input[type=range] {
+  position: relative
+}
 
 .slidecontainer {
   width: 80%; /* Width of the outside container */
@@ -117,5 +169,8 @@ section {
   }
   .button-design {
     width: 100%;
+  }
+  .button-design2 {
+    width: 100%
   }
 }
